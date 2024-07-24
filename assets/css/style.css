@@ -14434,6 +14434,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .gallery-box .box-content {
+    /* width: 40; */
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -14457,6 +14458,8 @@ span.select2-selection.select2-selection--single:focus {
     opacity: 0;
     z-index: 3
 }
+
+
 
 .gallery-box .box-content:before {
     content: '';
