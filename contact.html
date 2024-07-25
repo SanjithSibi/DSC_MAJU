@@ -57,6 +57,8 @@
     <link rel="stylesheet" href="assets/css/app.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css">
 </head>
 
 <body>
@@ -221,17 +223,23 @@
     
     <div class="space-bottom">
         <div class="container">
-            <form action="https://franchiselive.uk/phpproject/testfile.php" method="POST"
-                class="team-contact-form input-white">
+            <form id="appointmentForm" action="https://franchiselive.uk/phpproject/testfile.php" method="POST" class="team-contact-form input-white">
                 <h4 class="form-title">Make An Appointment</h4>
                 <div class="row">
-                    <div class="form-group col-sm-6"><input type="text" class="form-control" name="name" id="name"
-                            placeholder="Your Name"> <i class="far fa-user"></i></div>
-                    <div class="form-group col-sm-6"><input type="email" class="form-control" name="email" id="email"
-                            placeholder="Email Address"> <i class="far fa-envelope"></i></div>
-                    <div class="form-group col-sm-6"><input type="tel" class="form-control" name="phone" id="number"
-                            placeholder="Phone Number"> <i class="far fa-phone"></i></div>
-                    <div class="form-group col-sm-6"><select name="subject" id="subject" class="form-select">
+                    <div class="form-group col-sm-6">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="tel" class="form-control" name="phone" id="number" placeholder="Phone Number" required>
+                        <i class="far fa-phone"></i>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <select name="subject" id="subject" class="form-select" required>
                             <option value="" disabled="disabled" selected="selected" hidden>Choose Service</option>
                             <option value="General Maintenance">General Maintenance</option>
                             <option value="Carpet Cleaning">Carpet Cleaning</option>
@@ -243,17 +251,58 @@
                             <option value="Event Cleaning Services">Event Cleaning Services</option>
                             <option value="Initial Cleaning Services">Initial Cleaning Services</option>
                             <option value="Mobile Cleaning Services">Mobile Cleaning Services</option>
-                            
-
-                        </select> <i class="far fa-chevron-down"></i></div>
-                    <div class="form-group col-12"><textarea name="message" id="message" cols="30" rows="3"
-                            class="form-control" placeholder="Your Message"></textarea> <i class="far fa-message"></i>
+                        </select>
+                        <i class="far fa-chevron-down"></i>
                     </div>
-                    <div class="form-btn col-12 text-center"><button class="th-btn" name="form_submit">Submit Enquiry<i
-                                class="fas fa-arrow-up-right ms-2"></i></button></div>
+                    <div class="form-group col-12">
+                        <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message" required></textarea>
+                        <i class="far fa-message"></i>
+                    </div>
+                    <div class="form-btn col-12 text-center">
+                        <button class="th-btn" type="submit" name="form_submit">Submit Enquiry<i class="fas fa-arrow-up-right ms-2"></i></button>
+                    </div>
                 </div>
                 <p class="form-messages mb-0 mt-3"></p>
             </form>
+        
+            <script>
+                document.getElementById('appointmentForm').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevent the default form submission
+        
+                    var formData = new FormData(this);
+        
+                    fetch(this.action, {
+                        method: this.method,
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        var messageDiv = document.querySelector('.form-messages');
+                        messageDiv.innerHTML = `<p>${data.message}</p>`;
+                        if (data.status === 'success') {
+                            messageDiv.style.color = 'green';
+                            alert("Your Enquiry Has Been sent Successfully")
+                        } else {
+                            messageDiv.style.color = 'red';
+                        }
+                    })
+                    .catch(error => {
+                        document.querySelector('.form-messages').innerHTML = '<p>An error occurred while sending the message.</p>';
+                    });
+                });
+            </script>
+            
+            <script>
+                document.getElementById('appointmentForm').addEventListener('submit', function(event) {
+                    // Allow the form to submit normally
+                    setTimeout(function() {
+                        // Clear the form fields after submission
+                        document.getElementById('appointmentForm').reset();
+                    }, 100); // Wait for a short delay to ensure form submission is complete
+                });
+            </script>
+           
+            
         </div>
     </div>
     <div class="">
