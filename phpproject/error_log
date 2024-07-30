@@ -1,0 +1,76 @@
+[30-May-2024 12:18:03 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:19:50 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:21:37 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:22:34 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:23:13 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:24:13 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:27:39 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:47:32 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 12:54:33 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:05:32 America/Boise] PHP Warning:  Undefined array key "name" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 8
+[30-May-2024 13:05:32 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:08:43 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:08:45 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:08:47 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:12:12 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:25:29 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:27:28 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:27:34 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[30-May-2024 13:45:09 America/Boise] PHP Warning:  Undefined array key "name" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 8
+[30-May-2024 13:45:09 America/Boise] PHP Warning:  Undefined variable $name in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 29
+[31-May-2024 22:48:50 America/Boise] PHP Warning:  Undefined variable $pl1 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 85
+[31-May-2024 22:48:50 America/Boise] PHP Warning:  Undefined variable $pl2 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 86
+[31-May-2024 22:48:50 America/Boise] PHP Warning:  Undefined variable $pl3 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 87
+[31-May-2024 22:48:50 America/Boise] PHP Warning:  Undefined variable $pl4 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 88
+[31-May-2024 22:48:50 America/Boise] PHP Warning:  Undefined variable $pl5 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 89
+[31-May-2024 22:48:52 America/Boise] PHP Warning:  Undefined variable $pl1 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 85
+[31-May-2024 22:48:52 America/Boise] PHP Warning:  Undefined variable $pl2 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 86
+[31-May-2024 22:48:52 America/Boise] PHP Warning:  Undefined variable $pl3 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 87
+[31-May-2024 22:48:52 America/Boise] PHP Warning:  Undefined variable $pl4 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 88
+[31-May-2024 22:48:52 America/Boise] PHP Warning:  Undefined variable $pl5 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 89
+[01-Jun-2024 00:37:53 America/Boise] PHP Warning:  Undefined variable $pl1 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 85
+[01-Jun-2024 00:37:53 America/Boise] PHP Warning:  Undefined variable $pl2 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 86
+[01-Jun-2024 00:37:53 America/Boise] PHP Warning:  Undefined variable $pl3 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 87
+[01-Jun-2024 00:37:53 America/Boise] PHP Warning:  Undefined variable $pl4 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 88
+[01-Jun-2024 00:37:53 America/Boise] PHP Warning:  Undefined variable $pl5 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 89
+[05-Jun-2024 04:03:58 America/Boise] PHP Warning:  move_uploaded_file(uploads/footer-logo-245x245.png): Failed to open stream: No such file or directory in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 04:03:58 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php3bm7af&quot; to &quot;uploads/footer-logo-245x245.png&quot; in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 05:09:30 America/Boise] PHP Warning:  move_uploaded_file(uploads/78939.jpg): Failed to open stream: No such file or directory in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 05:09:30 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpEaRVcX&quot; to &quot;uploads/78939.jpg&quot; in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 05:09:31 America/Boise] PHP Warning:  move_uploaded_file(uploads/78939.jpg): Failed to open stream: No such file or directory in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 05:09:31 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php6ljtMZ&quot; to &quot;uploads/78939.jpg&quot; in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 05:09:33 America/Boise] PHP Warning:  move_uploaded_file(uploads/78939.jpg): Failed to open stream: No such file or directory in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[05-Jun-2024 05:09:33 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php4By0U4&quot; to &quot;uploads/78939.jpg&quot; in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 46
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $gender in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 74
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $pannum in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 76
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $gstnum in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 78
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $itr in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 79
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $itrnum in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 80
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $ref_name1 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 90
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $ref_mobile1 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 91
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $ref_name2 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 92
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $ref_mobile2 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 93
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $ref_name3 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 94
+[06-Jun-2024 00:45:18 America/Boise] PHP Warning:  Undefined variable $ref_mobile3 in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 95
+[06-Jun-2024 01:11:24 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:11:57 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:12:28 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:12:28 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:12:29 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:14:48 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:15:03 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:15:11 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:15:18 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:15:23 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:17:14 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:17:52 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:19:02 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:19:12 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:19:13 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:19:33 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 01:20:12 America/Boise] PHP Parse error:  syntax error, unexpected variable "$pl1" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 23
+[06-Jun-2024 02:56:39 America/Boise] PHP Warning:  Undefined variable $pannum in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 77
+[06-Jun-2024 02:56:39 America/Boise] PHP Warning:  Undefined variable $gstnum in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 79
+[14-Jun-2024 02:45:58 America/Boise] PHP Warning:  Undefined array key "gender" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 11
+[14-Jun-2024 02:52:20 America/Boise] PHP Warning:  Undefined array key "exp" in /home1/shardhul/public_html/marakkaar/phpproject/testfile.php on line 22
+[26-Jul-2024 09:17:39 America/Boise] PHP Parse error:  syntax error, unexpected '|', expecting end of file in /home1/moxmanco/public_html/franchiselive/phpproject/testfile.php on line 8
