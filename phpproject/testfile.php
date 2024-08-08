@@ -24,14 +24,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     try {
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'mail.dcsmaju.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'dcsmaju02@gmail.com';
-        $mail->Password = 'vxqtzmozkgphukgj'; 
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Username = 'info@dcsmaju.com';
+        $mail->Password = 'Info@dcsmaju82'; 
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port = 465;
 
-        $mail->setFrom('dcsmaju02@gmail.com', 'Cleaning Enquiry');
+        $mail->setFrom('info@dcsmaju.com', 'Cleaning Enquiry');
         $mail->addAddress('info@dcsmaju.com', 'DCSMaju');
 
         $mail->isHTML(true);
@@ -56,14 +56,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     try {
         $mails->isSMTP();
-        $mails->Host = 'smtp.gmail.com';
+        $mails->Host = 'mail.dcsmaju.com';
         $mails->SMTPAuth = true;
-        $mails->Username = 'dcsmaju02@gmail.com';
-        $mails->Password = 'vxqtzmozkgphukgj'; 
-        $mails->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mails->Port = 587;
+        $mails->Username = 'info@dcsmaju.com';
+        $mails->Password = 'Info@dcsmaju82'; 
+        $mails->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+        $mails->Port = 465;
 
-        $mails->setFrom('dcsmaju02@gmail.com', 'Cleaning Enquiry');
+        $mails->setFrom('info@dcsmaju.com', 'Cleaning Enquiry');
         $mails->addAddress($email, 'Franchise');
 
         $mails->isHTML(true);
@@ -85,7 +85,7 @@ Please note that we are unavailable during public holiday and we shall get back 
 
 Best Regards,<br>
 
-DCS Maju Admin Department.
+DCS MAJU Admin Department.
         ";
 
         $mails->send();
