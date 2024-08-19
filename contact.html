@@ -100,6 +100,14 @@
   src="https://www.facebook.com/tr?id=1606024260310173&ev=PageView
   &noscript=1"/></noscript>
   <!-- End Facebook Pixel Code -->
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    function enableSubmitBtn(){
+        document.getElementById("submitBtn").disabled = fasle;
+    }
+  </script>
+
   
 </head>
 
@@ -299,8 +307,9 @@
                         <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message" required></textarea>
                         <i class="far fa-message"></i>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6LeBEioqAAAAAAcMzByyIZj2sd4gHL4tX44qvVAR" data-callback="enableSubmitBtn"></div>
                     <div class="form-btn col-12 text-center">
-                        <button class="th-btn" type="submit" name="form_submit">Submit Enquiry<i class="fas fa-arrow-up-right ms-2"></i></button>
+                        <button class="th-btn" type="submit" name="form_submit" id="submitBtn" disabled="disabled">Submit Enquiry<i class="fas fa-arrow-up-right ms-2"></i></button>
                     </div>
                 </div>
                 <p class="form-messages mb-0 mt-3"></p>

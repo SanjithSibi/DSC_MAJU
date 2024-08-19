@@ -20,6 +20,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $subject = $_POST['subject'];
     $msg = $_POST['message'];
 
+    if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
+
+   $secretKey = '6LeBEioqAAAAAPxZ7CZr_ebSf-gDkKNeOS-D209Z';
+   $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret'.$secretKey.'&response'.$_POST['g-recaptcha-response']);
+    $response=json_decode($verifyResponse);
+
+    if($response->success){
+
     $mail = new PHPMailer(true);
 
     try {
@@ -51,6 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $response['status'] = 'error';
         $response['message'] = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
+
 
     $mails = new PHPMailer(true);
     
@@ -93,6 +102,19 @@ DCS MAJU Admin Department.
         $response['status'] = 'error';
         $response['message'] = "Message could not be sent. Mailer Error: {$mails->ErrorInfo}";
     }
+}
+else{
+    $_SESSION['status'] = 'recaptcha verification api: Something went wrong';
+    header("Location:{$_SERVER["HTTP_REFERER"]}");
+    exit(0);
+
+}
+}
+
+else{
+    
+}
+
 }
 
 header('Content-Type: application/json');
